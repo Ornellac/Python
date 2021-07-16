@@ -45,4 +45,20 @@ Dans un commit(FICHIER) :
 -
 -
 
-CONTENT 
+### FETCH / PULL / PUSH
+
+- Fetch => Récuperé la liste des changements. (Sans les appliqué localement et sans téléchargement, juste apercut)
+- Pull => Récupere la liste des changements et les changement -> DOWNLOAD
+- Push => Pousse les commints en local sur le remote (Tire la chasse) 
+
+### MERGE / REBASE
+
+- Merge - Commit
+- Rebase ne crée pas de commit -> Modifier l'ordre des commits
+
+### Quelle est la procedure a suivre ?
+
+1) Je choisis les fichiers que je veux stage
+2) Une fois les fichiers stages, je les commit avec un SUJET PARLANT (QUI PERMET DE COMPRENDRE CE QUE FAIT VOTRE COMMIT)
+3) Si on a encore des commit a faire -> Go 2)
+4) Si on a plus de commit a faire -> On peut push mais les bonnes pratiques veulent un FETCH/PULL -> PUSH
