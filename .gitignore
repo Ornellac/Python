@@ -1,0 +1,25 @@
+# Ignoré -> Façon Regex
+
+# __pycache__
+
+# Tout fichier qui termine par .PYC
+# *.pyc           
+
+# Qui commence par A et fini par .pyc
+# a*.pyc
+
+# Va ignoré le dossier Lib:
+# Lib
+
+# Enlever un dossier dans un autre dossier :
+# venv/Lib
+
+# Enlevé des fichier de 2 dossier :
+# venv/Scripts/*.bat
+
+
+
+
+
+
+
